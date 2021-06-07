@@ -1,6 +1,6 @@
-var createsum = document.getElementsById('create-burger');
+var createsum = document.getElementById('create-burger');
 
-var resultSumElement = document.getElementsById('burger-cost');
+var resultSumElement = document.getElementById('burger-cost');
 
 createsum.addEventListener("click", function(){
    var resultSumInt = 0;
