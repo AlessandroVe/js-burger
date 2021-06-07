@@ -1,0 +1,1 @@
+var createBurger = document.getElementsByClassName('add-items')[0];
