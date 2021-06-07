@@ -10,7 +10,7 @@ createsum.addEventListener("click", function(){
    for(var i=0; i < checkNum.length; i++ ){
        if(checkNum[i].checked){ 
 
-           resultSumInt += parseInt(checkNum[i].value);
+           resultSumInt += parseFloat(checkNum[i].value);
 
        }
     }
