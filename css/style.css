@@ -1,12 +1,17 @@
+body>.container{/* sovrascrizione bootstrap */
+    background-color: white;
+    margin-left: 0px ;
+    margin-right: 0px ;
+}
+body{
+    background-color: rgb(252, 251, 200);
+}
 /* HEADER */
 header{
-    height: 100px;
     position: relative;
 }
-h1{
-
-
-}
 header img{
-
+    position: absolute;
+    top: 0px;
+    right: -120px;
 }
