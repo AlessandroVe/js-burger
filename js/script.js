@@ -7,12 +7,12 @@ createsum.addEventListener("click", function(){
 
    var checkNum = document.getElementsByClassName("add-items");
 
-   for(var i=o; i < checkNum.length; i++ ){
+   for(var i=0; i < checkNum.length; i++ ){
        if(checkNum[i].checked){ 
 
            resultSumInt += parseInt(checkNum[i].value);
 
        }
-   }
+    }
     resultSumElement.innerHTML = " il risultato e' " + resultSumInt;
 })
