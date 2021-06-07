@@ -16,3 +16,10 @@ createsum.addEventListener("click", function(){
     }
     resultSumElement.innerHTML = " il risultato e' " + resultSumInt;
 })
+
+var discount = parseInt(document.getElementById('discount'));
+var sale= 0.2;
+if(discount===123456){
+    var totalcost = resultSumElement*sale;
+    
+}

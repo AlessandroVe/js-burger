@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <input type="checkbox" class="add-items" id="items1" name="items1" value="0.5">
-        <label for="items1">cheese</label>
-        
-        <input type="checkbox" class="add-items" id="items2" name="items2" value="1">
-        <label for="items2">egg</label>
-
-        <input type="checkbox" class="add-items" id="items3" name="items3" value="0.25">
-        <label for="items3">mustand</label>
-
-        <input type="checkbox" class="add-items" id="items4" name="items3" value="5">
-        <label for="items4">tomato</label>
-
-        <input type="checkbox" class="add-items" id="items5" name="items3" value="0.5">
-        <label for="items5">Lettuce</label>
-
-        <input type="checkbox" class="add-items" id="items6" name="items3" value="0.25">
-        <label for="items6">Ketchup</label>
-    </form>
-
-    <button id="create-burger">Create</button>
-
-    <div id="burger-cost"></div>
+    <div class="container">
+        <form>
+            <input type="checkbox" class="add-items" id="items1" name="items1" value="0.5">
+            <label for="items1">cheese</label>
+            
+            <input type="checkbox" class="add-items" id="items2" name="items2" value="1">
+            <label for="items2">egg</label>
+    
+            <input type="checkbox" class="add-items" id="items3" name="items3" value="0.25">
+            <label for="items3">mustand</label>
+    
+            <input type="checkbox" class="add-items" id="items4" name="items3" value="5">
+            <label for="items4">tomato</label>
+    
+            <input type="checkbox" class="add-items" id="items5" name="items3" value="0.5">
+            <label for="items5">Lettuce</label>
+    
+            <input type="checkbox" class="add-items" id="items6" name="items3" value="0.25">
+            <label for="items6">Ketchup</label>
+        </form>
+        <form action="">
+            <input type="text" id="discount">
+        </form>
+    
+        <button id="create-burger">Create</button>
+    
+        <div id="burger-cost"></div>
+    </div>
   
     <script src="./js/script.js"></script>
 </body>
