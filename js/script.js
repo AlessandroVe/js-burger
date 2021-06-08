@@ -1,8 +1,16 @@
 var user_choose = prompt("Che panino preferisci?");
-document.getElementById("title-burger").innerHTML= user_choose;
-if(user_choose.length===0){
-    alert("Inserisci nome valido");
+var menu_buger= ["Crispy","Big","Double","McChicken"];
+for(var i = 1 ; i<= menu_buger.length ;i++){
+    if(user_choose === menu_buger[i]){
+        alert("Scegli pure gli ingredienti");
+        document.getElementById("title-burger").innerHTML= user_choose;
+        break;
+    }else{
+        alert("Inserisci nome valido");
+        break;
+    }
 }
+
 
 
 
@@ -21,7 +29,7 @@ createsum.addEventListener("click", function(){
    for(var i=0; i < checkNum.length; i++ ){
        if(checkNum[i].checked){ 
 
-           resultSumInt += parseFloat(checkNum[i].value);
+        resultSumInt += parseFloat(checkNum[i].value);
 
        }
     }
