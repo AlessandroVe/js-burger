@@ -1,16 +1,11 @@
 var user_choose = prompt("Che panino preferisci?");
-var menu_buger= ["Crispy","Big","Double","McChicken"];
-for(var i = 1 ; i<= menu_buger.length ;i++){
-    if(user_choose === menu_buger[i]){
-        alert("Scegli pure gli ingredienti");
-        document.getElementById("title-burger").innerHTML= user_choose;
-        break;
-    }else{
-        alert("Inserisci nome valido");
-        break;
-    }
-}
+var menu_buger = ["Crispy","Big","Double","McChicken"];
 
+while(!menu_buger.includes(user_choose)){
+    alert("inserisci nome valido ");
+    user_choose = prompt("Che panino preferisci?");
+}
+document.getElementById("title-buger").innerHTML= user_choose;
 
 
 
