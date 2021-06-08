@@ -15,3 +15,28 @@ header img{
     top: 0px;
     right: -120px;
 }
+/* main */
+.list-items{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.list-items>li{
+    margin:15px 0px;
+}
+.img-ingredients{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.img-ingredients>img{
+    width: 100%;
+}
+#title-discount{
+    margin-right: 15px;
+}
+/* Footer */
+footer{
+    height: 150px;
+    background-color: rgb(248, 45, 45);
+}
