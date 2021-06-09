@@ -1,4 +1,4 @@
-var user_choose = prompt("Che panino preferisci?");
+var user_choose = prompt("Che panino preferisci? Crispy ,Big ,Double, McChicken");
 var menu_buger = ["Crispy","Big","Double","McChicken"];
 
 while(!menu_buger.includes(user_choose)){
