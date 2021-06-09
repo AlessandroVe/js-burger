@@ -5,7 +5,7 @@ while(!menu_buger.includes(user_choose)){
     alert("inserisci nome valido ");
     user_choose = prompt("Che panino preferisci?");
 }
-document.getElementById("title-buger").innerHTML= user_choose;
+document.getElementById("title-burger").innerHTML= user_choose;
 
 
 
